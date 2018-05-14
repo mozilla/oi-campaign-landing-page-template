@@ -11,10 +11,6 @@ So you decided to host an event, congratulations! Your efforts will help Firefox
 
 ### Workflow
 
-<REPLACEME>
-
-### Resources you can request
-
-<REPLACEME>
+REPLACEME
 
 </div>

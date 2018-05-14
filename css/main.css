@@ -210,13 +210,19 @@ h2 {
   padding: 10px 50px;
 }
 
+#sentenceInput {
+  width: 50%;
+  height: 10rem;
+  display: block;
+}
+
 .map-canvas {
   height: 30rem;
 }
 
 footer {
   background:
-    url('/img/img-planet-closeup.svg') 150% 100% no-repeat,
+    url('../img/img-planet-closeup.svg') 150% 100% no-repeat,
     linear-gradient(to top, #535382, #2d2c55);
   padding: 30px 50px 0px 50px;
   display: flex;
@@ -350,7 +356,7 @@ footer .footer-content a {
 }
 
 .home header {
-  background: #f3f3f3 url('/img/img-header.svg');
+  background: #f3f3f3 url('../img/img-header.svg');
   background-size: cover;
   background-position: inherit;
   text-align: center;
@@ -760,6 +766,14 @@ footer .footer-content a {
   color: #ff0000;
 }
 
+.form-group {
+  margin-bottom: 20px;
+}
+
+#no-target {
+  display: none;
+}
+
 .content-box {
   border-radius: 2px;
   background-color: #ffffff;
@@ -847,11 +861,19 @@ footer .footer-content a {
   cursor: pointer;
 }
 
+#reporting-form input[type="checkbox"] {
+  width: auto;
+  display: inline;
+  height: 100%;
+  margin: 0;
+}
+
 @media all and (max-width: 768px) {
   #reporting-form label,
   #reporting-form input,
   #reporting-form button,
-  #reporting-form fieldset {
+  #reporting-form fieldset,
+  #reporting-form textarea {
     width: 100%;
   }
 
@@ -894,7 +916,7 @@ h3.content-title {
 }
 
 .title-frame {
-  background: url('/img/title-frame.png');
+  background: url('../img/title-frame.png');
   background-size: contain;
   display: inline-block;
   height: 20px;
@@ -902,7 +924,7 @@ h3.content-title {
 }
 
 .title-frame-grey {
-  background: url('/img/title-frame-grey.png');
+  background: url('../img/title-frame-grey.png');
   background-size: contain;
   display: inline-block;
   height: 20px;

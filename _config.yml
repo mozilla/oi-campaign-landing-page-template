@@ -2,7 +2,7 @@ title: <REPLACEME> Sprint
 subtitle:
 email: <REPLACEME>
 twitter: https://twitter.com/mozilla
-baseurl: "<REPLACEME>" # the subpath of your site, e.g. /blog, for GitHub pages this is /REPONAME
+baseurl: "" # <REPLACEME> the subpath of your site, e.g. /blog, for GitHub pages this is /REPONAME
 url: "https://mozilla.github.io/" # the base hostname & protocol for your site
 github:
   repo: "mozilla/<REPLACEME>"

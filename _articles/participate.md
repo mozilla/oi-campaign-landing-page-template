@@ -40,4 +40,4 @@ title: Attend an Event
   </div>
 </section>
 
-<p class="participate-theaser">Keep doing the awesome work and make Firefox better!</p>
+<p class="participate-theaser">Thanks!</p>

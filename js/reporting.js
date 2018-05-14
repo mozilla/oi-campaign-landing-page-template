@@ -16,6 +16,15 @@ const ReportingForm = {
     var webcompatIssueEntry = 'entry.908686419';
 
     //REPLACEME use your own validation and entries above
+    if (false) {
+      document.querySelector('.general-error').classList.remove('hidden');
+      return false;
+    }
+
+    if (sentenceValue.length > 5000) {
+      document.querySelector('.input-error').classList.remove('hidden');
+      return false;
+    }
 
     form.action = submitURL;
 

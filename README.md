@@ -15,3 +15,8 @@ To run this site locally you need to install [Jekyll](https://jekyllrb.com/), [R
 1. Copy the source of this repository to your own repository
 2. Search for "<REPLACEME>" and replace all the needed placeholder data
 3. Remove this section in the README once you have copied it to your repository!
+
+## Other tasks to do
+
+1. Consider hosting this on a *.mozilla.community domain
+2. Add Google Analytics or similar to help you measure impact
